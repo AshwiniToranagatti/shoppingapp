@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ysabeau Office', sans-serif;
+}
+
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 25px;
+}
+
+nav{
+	flex:1;
+	text-align: right;
+
+
+}
+
+a:hover{
+	color: red;
+}
+a{
+	text-decoration: none;
+	color: #555;
+}
+
+nav ul{
+	list-style-type: none; /*to remove bullets*/
+
+}
+
+nav ul li{
+	display: inline-block;/*to make nav horizontal*/
+margin-right: 20px;
+}
+
+body{
+	font-family: 'poppins',sans-serif;
+	background: radial-gradient(aquamarine,pink);
+}
+
+.header{
+	background:radial-gradient(pink,peachpuff);
+}
+
+table{
+	align:center;
+}
+
